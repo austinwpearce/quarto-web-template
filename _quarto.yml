@@ -1,8 +1,9 @@
 project:
   type: website
+  # output-dir: docs # for flexibility in building GitHub pages
 
 website:
-  title: "template"
+  title: "Title"
   navbar:
     left:
       - href: index.qmd
@@ -11,9 +12,13 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: sandstone
+      dark: vapor
     css: styles.css
     toc: true
+    fig-align: center
+    reference-location: margin
 
 editor: visual
 

@@ -1,9 +1,7 @@
 ---
 title: "About"
+about: 
+  template: jolla
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+Where are we? And why?
