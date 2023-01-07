@@ -1,6 +1,6 @@
 project:
   type: website
-  # output-dir: docs # for flexibility in building GitHub pages
+  output-dir: docs # for flexibility in building GitHub pages
 
 website:
   title: "Title"
