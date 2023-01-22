@@ -5,6 +5,8 @@ project:
 website:
   title: "Title"
   navbar:
+    background: "#091589"
+    foreground: "#f1f1f1"
     left:
       - href: index.qmd
         text: Home
@@ -13,8 +15,11 @@ website:
 format:
   html:
     theme:
-      light: sandstone
+      light: journal
       dark: vapor
+    backgroundcolor: "#f1f1f1"
+    linkcolor: "#CC0000"
+    linestretch: 1.33
     css: styles.css
     toc: true
     fig-align: center
