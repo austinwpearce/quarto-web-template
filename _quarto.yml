@@ -17,7 +17,6 @@ format:
     theme:
       light: journal
       dark: vapor
-    backgroundcolor: "#f1f1f1"
     linkcolor: "#CC0000"
     linestretch: 1.33
     css: styles.css
