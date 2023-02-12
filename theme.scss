@@ -1,0 +1,45 @@
+/*-- scss:defaults --*/
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Roboto+Slab:wght@400;600;800&family=Source+Sans+Pro:ital,wght@0,200;0,400;1,200;1,400&display=swap');
+
+
+
+//Colors
+$red: #CC0000;
+$dark: #090909;
+$blue: #091589;
+$light: #F1F1F1;
+
+// Base document colors
+$navbar-bg: $dark; // navbar
+$navbar-fg: $light; // navbar foreground elements
+$navbar-hl: $red; // highlight color when hovering over navbar links
+$link-color: $red; // hyperlinks 
+
+// Inline code
+$code-bg: $light; // inline code background color
+$code-color: $red; // inline code text color
+
+// Code blocks
+$code-block-bg: $light; // code block background color
+
+/*-- scss:rules --*/
+
+h1, h2 {
+  font-weight: 800;
+  font-family: Roboto Slab, serif;
+}
+
+h3, h4 {
+  font-weight: 600;
+  font-family: Roboto Slab, serif;
+}
+
+body{
+  font-family: Source Sans Pro, sans-serif;
+}
+
+code {
+  font-family: Cascadia Code, Fira Code, monospace;
+}

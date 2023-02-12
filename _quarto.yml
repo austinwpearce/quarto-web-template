@@ -15,11 +15,10 @@ website:
 format:
   html:
     theme:
-      light: journal
+      light: theme.scss
       dark: vapor
-    linkcolor: "#CC0000"
     linestretch: 1.33
-    css: styles.css
+    css: theme.scss
     toc: true
     fig-align: center
     reference-location: margin
