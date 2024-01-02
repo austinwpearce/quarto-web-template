@@ -11,6 +11,35 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      
+      
+  sidebar:
+    title: "**Title**"
+    style: docked
+    search: true
+    collapse-level: 2
+    align: center
+    foreground: "#000000"
+    background: "#f1f1f1"
+    tools: 
+      - icon: github
+    contents:
+      - about.qmd
+      - "---"
+      - section: "**Section**"
+        contents:
+        - "about.qmd"
+        - "about.qmd"
+      - "---"
+      - section: "**Section 2**"
+        contents:
+        - section: "Subsection"
+          file: "about.qmd"
+          contents:
+            - auto: folder/*
+            - section: Subsection
+              contents:
+                - auto: "folder/dev/*"
 
 format:
   html:
