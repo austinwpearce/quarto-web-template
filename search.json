@@ -1,0 +1,19 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog template",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\n\n\nListing of other pages\n\n\n\n\n\n\n\n\n\n\nAbout\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Where are we? And why?",
+    "crumbs": [
+      "About"
+    ]
+  }
+]
