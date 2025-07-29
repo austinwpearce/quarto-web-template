@@ -1,5 +1,16 @@
 ---
-title: "template"
+title: "Blog template"
+listing: 
+  - id: some-name
+    type: grid
+    grid-columns: 2
+    image-height: "150px"
+    fields: 
+      - title
+      - image
+      - description
+    contents: 
+      - about.qmd
 ---
 
 This is a Quarto website.
@@ -10,4 +21,9 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 1 + 1
 ```
 
-![](images/image.jpg)
+![](assets/images/image.jpg)
+
+# Listing of other pages 
+
+::: {#some-name}
+:::

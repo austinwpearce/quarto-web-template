@@ -10,6 +10,7 @@ $red: #CC0000;
 $dark: #090909;
 $blue: #091589;
 $light: #F1F1F1;
+$heading-underline-color: #e0e0e0;  // A light gray color, adjust as needed
 
 // Base document colors
 $navbar-bg: $dark; // navbar
@@ -26,9 +27,20 @@ $code-block-bg: $light; // code block background color
 
 /*-- scss:rules --*/
 
-h1, h2 {
+h1 {
   font-weight: 800;
   font-family: Roboto Slab, serif;
+  margin-top: 4rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid $heading-underline-color;
+  margin-bottom: 1rem;  // Add some space after the line
+}
+
+h2 {
+  font-weight: 800;
+  font-family: Roboto Slab, serif;
+  margin-top: 2rem;
+  border-bottom: none;  // This removes any bottom border
 }
 
 h3, h4 {
@@ -38,8 +50,18 @@ h3, h4 {
 
 body{
   font-family: Source Sans Pro, sans-serif;
+  //font-size: 12pt;
 }
 
 code {
   font-family: Cascadia Code, Fira Code, monospace;
+}
+
+.sidebar-logo {
+    max-height: 80px;
+    margin-bottom: 10px;
+}
+
+.column-margin{
+  font-size: 0.7em;
 }

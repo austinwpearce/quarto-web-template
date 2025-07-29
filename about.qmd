@@ -2,6 +2,7 @@
 title: "About"
 about: 
   template: jolla
+image: assets/images/image.jpg
 ---
 
 Where are we? And why?
